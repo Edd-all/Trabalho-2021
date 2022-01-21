@@ -58,8 +58,8 @@ class meiocampo : public jogador{
 		double peso;
 	public:	
 	  void ler();
-      int aposentadoria();
-      string getNome();	
+          int aposentadoria();
+          string getNome();	
 };
 void meiocampo::ler(){
 	getline(cin,nome);
@@ -93,8 +93,8 @@ class atacante : public jogador{
 		double peso;
 	public:	
 	  void ler();
-      int aposentadoria();
-      string getNome();	
+          int aposentadoria();
+          string getNome();	
 };
 void atacante::ler(){
 	getline(cin,nome);
