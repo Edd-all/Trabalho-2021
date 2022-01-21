@@ -49,14 +49,14 @@ double filme::aluguel(){
 class locadora{
 	private:
 		filme vet[100];
-        int qtd;
-        int obterIndice(int cod); 
-    public:	
+        	int qtd;
+        	int obterIndice(int cod); 
+        public:	
 		locadora();
 		void inserir(filme f);
-        void remover(int cod);
-        void alterar(int cod, filme f);
-        filme obterFilme(int pos);
+                void remover(int cod);
+        	void alterar(int cod, filme f);
+        	filme obterFilme(int pos);
 		int obterQtd();
 		void listar();
 		void listarAluguel(int cod);
