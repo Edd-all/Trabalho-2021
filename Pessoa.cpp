@@ -37,7 +37,6 @@ void data::mostrar(){
 }
 void data::idade(){
 	int id;		//id = 2021 - ano;		idade em 31/12/2021
-	
 	if(ano<25){
 		id = 21 - ano;
 	}else if(ano > 25 && ano < 99){
