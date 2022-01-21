@@ -9,8 +9,8 @@ using namespace std;
 class jogador{
 	public:
 		virtual void ler()       		{           }
-     	virtual int aposentadoria()     { return 0; }
-     	virtual string getNome() 		{ return "";}	
+     		virtual int aposentadoria()     { return 0; }
+     		virtual string getNome() 		{ return "";}	
 };
 
 
@@ -23,8 +23,8 @@ class defensor : public jogador{
 		double peso;
 	public:	
 	  void ler();
-      int aposentadoria();
-      string getNome();	
+      	  int aposentadoria();
+      	  string getNome();	
 };
 void defensor::ler(){
 	getline(cin,nome);
