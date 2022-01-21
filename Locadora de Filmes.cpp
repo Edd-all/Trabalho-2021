@@ -210,11 +210,11 @@ int main(){
 	while (!acabou){
       switch( menu() ){
       	
-      	case 1:
+      		case 1:
       		f.ler();
       		l.inserir(f);
       		break;
-      	case 2:
+      		case 2:
       		cin >> codigo;
       		if (l.existe(codigo)){
       			l.remover(codigo);
@@ -247,11 +247,11 @@ int main(){
 		  	break;
 		case 6:
       		cin.ignore();
-            getline(cin,texto);  
-            l.listar(texto, texto);
-            esperaOk();
+                getline(cin,texto);  
+                l.listar(texto, texto);
+                esperaOk();
 		  	break;	  	  	  	
-      	case 7:
+      		case 7:
 		  	acabou = true;
 			break;	
       }
